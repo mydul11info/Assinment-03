@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font-awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <!-- tailwind css cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
@@ -34,7 +40,7 @@
          </nav> -->
         
         <!-- banner code run here -->
-        <div class="max-w-7xl mx-auto">
+        <div class="max-w-7xl mx-auto mb-20">
             <img class="mx-auto" src="Images/banner.png" alt="">
             <h1 class="text-4xl md:text-6xl font-bold md:mx-24 text-center">A barn house of this design has a striking appearance</h1>
             <p class="mx-2 md:mx-36 my-8 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
@@ -44,20 +50,70 @@
         </div>
     </header>
     <main>
-        <!-- <section class="bg-gray-200">
-           <div class="max-w-7xl flex mx-auto gap-4 py-28">
+        <section class="bg-gray-200">
+           <div class="max-w-7xl md:flex justify-between mx-auto gap-2 py-28">
                 <div>
-                    <button class="bg-slate-100 px-4 py-1 rounded-3xl"><i class="fa-solid fa-arrow-right"></i> About Us</button>
-                    <h2>We design thoughtful, liveable spaces</h2>
-                    <p>The barn house captivates with its blend of rustic charm and 
+                    <!-- section part-1 -->
+                    <div class="text-center md:text-left">
+                        <button class="bg-slate-100 px-4 py-1 rounded-3xl"><i class="fa-solid fa-arrow-right"></i> About Us</button>
+                    </div>
+                    <h2 class="text-3xl text-center md:text-left md:text-5xl font-bold my-8">We design thoughtful, <br>
+                    liveable spaces</h2>
+                    <p class="py-2 text-center md:text-left">The barn house captivates with its blend of rustic charm and <br> 
                     modern sophistication, featuring weathered wood, sleek metal accents.</p>
-                    
+
+                    <!-- section part-2 -->
+                     <div class="bg-white flex items-center gap-4  py-4 px-4 rounded-2xl my-8 mx-4 md:mx-auto">
+                        <img src="Images/commercial.png" alt="">
+                        <div>
+                            <h3 class="text-3xl">Commercial</h3>
+                            <p class="text-gray-500 mt-1.5">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                        </div>
+                     </div>
+                    <!-- section part-3 -->
+                     <div class="bg-white flex items-center gap-4 py-4 px-4 rounded-2xl my-8 mx-4 md:mx-auto">
+                        <img src="Images/residential.png" alt="">
+                        <div>
+                            <h3 class="text-3xl">Residential</h3>
+                            <p class="text-gray-500 mt-1.5">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                        </div>
+                     </div>
                 </div>
-                <div>
+                <div class="mx-4">
                     <img src="Images/Rectangle.png" alt="">
                 </div>
            </div>
-        </section> -->
+
+           <div class="max-w-7xl mx-auto">
+             <div class="text-center">
+                <button class="bg-slate-100 px-4 py-1 rounded-3xl"><i class="fa-solid fa-arrow-right"></i>How we works </button>
+                <h2 class="text-3xl font-bold md:text-5xl py-4">Our Works Process</h2>
+                <p class="text-gray-600 mb-12">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+             </div>
+             <div class="mx-6 md:flex gap-5 ">
+                <div class="bg-fuchsia-300 rounded-2xl px-4 py-5 mb-5">
+                    <img src="Images/concept.png" alt="">
+                    <h3 class="text-3xl font-semibold py-3">Concept</h3>
+                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <div class="bg-amber-300 rounded-2xl px-4 py-5 mb-5">
+                    <img src="Images/flow-chart.png" alt="">
+                    <h3 class="text-3xl font-semibold py-3">Design Process</h3>
+                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <div class="bg-sky-300 rounded-2xl px-4 py-5 mb-5">
+                    <img src="Images/vision.png" alt="">
+                    <h3 class="text-3xl font-semibold py-3">Supervision</h3>
+                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <div class="bg-blue-500 rounded-2xl px-4 py-5 mb-5">
+                    <img src="Images/budget-planning.png" alt="">
+                    <h3 class="text-3xl font-semibold py-3">Budget Planning</h3>
+                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+             </div>
+          </div>
+        </section>
     </main>
     <footer>
 
