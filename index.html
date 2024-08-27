@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rinterio</title>
     <!-- font-awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
     <!-- tailwind css cdn link -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
+    <header class="max-w-7xl mx-auto">
         <!-- navbar code run here -->
-         <!-- <nav>
+        <nav class="flex justify-around items-center">
             <div>
-                <i></i>
-                <p>Rinterio</p>
+                <h3 class="text-2xl font-semibold"> <i class="fa-solid fa-arrow-right -rotate-45 bg-lime-300 rounded-3xl px-2 py-2"></i> Rinterio</h3>
             </div>
             <div>
-                <ul>
+                <ul class="md:flex gap-8 hidden sm:block">
                     <li>Home</li>
                     <li>services</li>
                     <li>Protfolio</li>
@@ -26,14 +25,13 @@
                     <li>Contact Us</li>
                 </ul>
             </div>
-            <div>
-                <i></i>
-                <i></i>
-                <div>
-                    <button>Book Consult<i></i></button>
-                </div>
+            <div class="hidden sm:block">
+                <i class="fa-solid fa-magnifying-glass bg-slate-200 py-3 px-3 rounded-3xl"></i>
+                <i class="fa-solid fa-cart-shopping bg-slate-200 py-3 px-3 rounded-3xl"></i>
+                <button class="text-black font-semibold text-center bg-lime-300 px-16 py-2 md:px-8 rounded-3xl">Book Consult  <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-3xl px-2 py-2"></i> </button>
             </div>
-         </nav> -->
+            <i class="md:hidden fa-solid fa-bars bg-slate-200 py-3 px-3 rounded-3xl"></i>
+        </nav>
         
         <!-- banner code run here -->
         <div class="max-w-7xl mx-auto mb-20">
